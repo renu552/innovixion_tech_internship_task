@@ -21,18 +21,18 @@ public class Calculator {
 		break;
 		
 	case '-':
-		result=Num1+Num2;
-		System.out.println(Num1 +"+"+ Num2 + "=" +result);
+		result=Num1-Num2;
+		System.out.println(Num1 +"-"+ Num2 + "=" +result);
 		break;
 		
 	case '*':
-		result=Num1+Num2;
-		System.out.println(Num1 +"+"+ Num2 + "=" +result);
+		result=Num1*Num2;
+		System.out.println(Num1 +"*"+ Num2 + "=" +result);
 		break;
 		
 	case '/':
-		result=Num1+Num2;
-		System.out.println(Num1 +"+"+ Num2 + "=" +result);
+		result=Num1/Num2;
+		System.out.println(Num1 +"/"+ Num2 + "=" +result);
 		break;
 		
 		default:
